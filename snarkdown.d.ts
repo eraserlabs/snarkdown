@@ -1,4 +1,4 @@
-declare module "snarkdown" {
+declare module "@eraserlabs/snarkdown" {
   interface Links {
     [index: string]: string;
   }

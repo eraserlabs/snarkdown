@@ -1,5 +1,5 @@
 {
-  "name": "snarkdown",
+  "name": "@eraserlabs/snarkdown",
   "description": "Transform Markdown into HTML.",
   "version": "2.0.0",
   "main": "./dist/snarkdown.js",
@@ -16,15 +16,16 @@
     "release": "npm run -s build && npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "authors": [
-    "Jason Miller <jason@developit.ca>"
+    "Jason Miller <jason@developit.ca>",
+    "Stu Kabakoff <stutrek@gmail.com>"
   ],
   "files": [
     "src",
     "dist",
     "snarkdown.d.ts"
   ],
-  "homepage": "https://github.com/developit/snarkdown",
-  "repository": "developit/snarkdown",
+  "homepage": "https://github.com/eraserlabs/snarkdown",
+  "repository": "eraserlabs/snarkdown",
   "license": "MIT",
   "keywords": [
     "markdown",
